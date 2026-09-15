@@ -1,0 +1,20 @@
+{
+	"version": "0.3.22", 
+	"suite": "unknown_suite", 
+	"function_id": 8, 
+	"function_name": "Rosenbrock", 
+	"maximization": false, 
+	"algorithm": {"name": "Genetic Algorithm", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y", "current_y", "raw_y_best", "current_y_best"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f8_Rosenbrock/IOHprofiler_f8_DIM2.dat",
+		"runs": [
+			{"instance": 1, "evals": 100, "best": {"evals": 56, "y": 0.39831297566317947, "x": [-0.6397392020814137, -1.1743959187537805]}},
+			{"instance": 1, "evals": 100, "best": {"evals": 88, "y": 0.005339862427140611, "x": [-0.12635886044217637, -0.5063919731899154]}},
+			{"instance": 1, "evals": 100, "best": {"evals": 20, "y": 0.9243717032882528, "x": [0.8900801186709648, 2.43086956864415]}},
+			{"instance": 1, "evals": 100, "best": {"evals": 71, "y": 0.3931407053187762, "x": [-0.6719617000231879, -1.235218095729241]}},
+			{"instance": 1, "evals": 100, "best": {"evals": 14, "y": 0.3467380628068958, "x": [0.517429797789962, 1.0886410784434513]}}
+		]}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"version": "0.3.22", 
+	"suite": "unknown_suite", 
+	"function_id": 8, 
+	"function_name": "Rosenbrock", 
+	"maximization": false, 
+	"algorithm": {"name": "Differential Evolution", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y", "current_y", "raw_y_best", "current_y_best"],
+	"scenarios": [
+		{"dimension": 2,
+		"path": "data_f8_Rosenbrock/IOHprofiler_f8_DIM2.dat",
+		"runs": [
+			{"instance": 1, "evals": 120, "best": {"evals": 14, "y": 0.4817157331142743, "x": [0.6387244660936109, 1.4972215370380548]}},
+			{"instance": 1, "evals": 120, "best": {"evals": 119, "y": 0.6362788079766679, "x": [-0.8124387680174533, -1.3369405273122807]}},
+			{"instance": 1, "evals": 120, "best": {"evals": 102, "y": 1.7748486749141663, "x": [-0.8147570568240042, -1.4224368028780505]}},
+			{"instance": 1, "evals": 120, "best": {"evals": 73, "y": 0.9426648527311818, "x": [-0.6525813157166938, -1.285235794738544]}},
+			{"instance": 1, "evals": 120, "best": {"evals": 112, "y": 0.19394491445788076, "x": [-0.3627306920892326, -0.9228092314271913]}}
+		]}
+	]
+}
